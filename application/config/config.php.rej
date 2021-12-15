@@ -1,0 +1,10 @@
+diff a/application/config/config.php b/application/config/config.php	(rejected hunks)
+@@ -400,7 +400,7 @@
+ /* $config['cookie_path']		= '/';
+ $config['cookie_secure']	= FALSE;
+ $config['cookie_httponly'] 	= FALSE; */
+-$config['cookie_path']      = '/; SameSite=None';
++$config['cookie_path']      = '/';	// SameSite=None';
+ $config['cookie_secure']    = TRUE;
+ $config['cookie_httponly']  = FALSE;
+ 
